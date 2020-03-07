@@ -1,3 +1,6 @@
 This is a file created for the purpose of learning how to use git and github
 
  THis is just what i wanna do
+
+
+This edit is for the purpose of testing the git pull command
