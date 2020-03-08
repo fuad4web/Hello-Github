@@ -1,0 +1,134 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(240, 198, 135);
+}
+.wrapper:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4rem;
+    font-weight: 4rem;
+    text-align: center;
+    background-color: rgb(218, 149, 45);
+    color: burlywood;
+    margin-bottom: 2rem;
+    text-shadow: 3px 2px rgb(241, 233, 233);;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+li {
+    border: 3px solid yellowgreen;
+    flex-basis: 15%;
+    text-align: center;
+    font-style: italic;
+    background-color: tomato;
+    padding: 1rem;
+    font-weight: bold;
+    word-spacing: 4px;
+}
+.menus > li:hover {
+    background-color: rgb(189, 93, 93);
+}
+a {
+    text-decoration: none;
+    color: brown;
+}
+a:hover {
+    color: burlywood;
+    font-size: 2rem;
+    font-family: cursive;
+}
+h2 {
+    color: coral;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+.exp1 {  
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+    padding: 0;
+    margin: 3px;
+}
+.home {
+    color: rgb(218, 149, 45);
+    flex-basis: 98%;
+    justify-content: space-around;
+    margin-top: 0;
+}
+.fuskyd {
+    padding-left: -2rem;
+    padding-right: 1rem;  
+}
+.exp2 {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+    padding: 0;
+    margin-top: 1rem;
+}
+.modrasat {
+    color: rgb(218, 149, 45);
+    flex-basis: 98%;
+    justify-content: space-around;
+    margin-top: 0;
+}
+.fud {
+    text-align: right;
+    padding-left: 1rem;
+    
+}
+.exp3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: rgb(218, 149, 45);
+    padding: 0.6rem;
+}
+.right {
+    text-align: center;
+    line-height: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

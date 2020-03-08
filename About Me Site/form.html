@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/form.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <h1>MY EXPERIENCE</h1>
+        </div>
+        <div class="menus">
+          <ul>
+          <li><a href="aboutme.html">ABOUT ME</a></li>
+          <li><a href="qualifications.html">MY QUALIFICATIONS</a></li>
+          <li><a href="myexperience.html">MY EXPERIENCE</a></li>
+          <li><a href="form.html">CONTACT ME</a></li>
+          </ul>
+      </div>
+        <script src="js/forms.js"></script>
+            <section>
+                <p>Fill out the form below to send what you wanna know about me</p>
+                <form action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES" method="POST">
+                    <input type="hidden" id="myhidden" name="send_to" value="zfuad6454@gmail.com">
+                    <fieldset>
+                <legend>Your contact information</legend>
+                <label for="name">Your name </label><input type="text" id="name" name="name" placeholder="Your Name">
+                <label for="phone">Phone number</label><input type="tel" id="phone" name="phone" placeholder="Your Num">
+                <label for="email">Email</label><input type="email" id="email" name="email" placeholder="Your mail">
+                    </fieldset>
+                    <fieldset>
+                <legend>About your request </legend>
+                <label for="date">Requested  date</label><input type="date" id="date" name="date">
+                <label for="qty">How many questions did you wanna asked from me?</label><input type="number" id="qty" name="qty" min="1" max="10">
+                <p>What type of Language will you prefer?</p>
+                        <label><input type="radio" name="ufotype" value="classic"> Yoruba</label>
+                        <label><input type="radio" name="ufotype" value="warstyle"> English</label>
+                        <!-- the checked below means it is going to be selected by default by the browser -->
+                        <label><input type="radio" name="ufotype" value="battlestar" checked> Arabic</label>
+                        <label><input type="radio" name="ufotype" value="borgstyle">Spanish</label>
+                <label for="abttype">Which continent are you from?</label>
+                    <select id="abttype" name="abttype">
+                        <!-- the selected beloww means that it is going to be selected by default by the browser -->
+                        <option selected>Select ur Choice</option>
+                        <option value="dinner">Africa</option>
+                        <option value="dance">Antarctica</option>
+                        <option value="whale">Asia</option>
+                        <option value="fuad">Europe</option>
+                        <option value="dinner">Africa</option>
+                        <option value="dance">Antarctica</option>
+                        <option value="whale">Asia</option>
+                        <option value="fuad">Europe</option>
+                    </select>
+                <label for="comments">Special requests:</label>
+                <textarea id="comments" name="comments" placeholder="write something meaningful"></textarea>
+                <label for="subscribe">
+                    <!-- this is choosen by default already unless the visitor unclick it -->
+                    <input type="checkbox" value="subscribe" name="subscribe" id="subscribe" checked> Add me to your E-Mail list !!!
+                </label>
+                    </fieldset>
+                </form>				
+            </section>
+            <aside>
+                <h3>My Location</h3>
+                <address>
+                    Igbolomu &middot;<br>
+                    19 Onajirin Street &middot;<br>
+                    Ikorodu &middot;<br>
+                    Lagos State, Nigeria.
+                </address>
+            </aside>
+            <button type="submit">Submit ur Form</button>
+        </div>
+    </body>
+</html>

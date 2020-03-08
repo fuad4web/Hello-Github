@@ -1,0 +1,127 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(240, 198, 135);
+}
+#wrapper:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+h1 {
+    font-size: 3rem;
+    font-weight: 3rem;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown;
+    background-color: coral;
+    border: 3px solid yellowgreen;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+li {
+    border: 3px solid yellowgreen;
+    flex-basis: 15%;
+    text-align: center;
+    font-style: italic;
+    background-color: tomato;
+    padding: 1rem;
+    font-weight: bold;
+    word-spacing: 4px;
+}
+.menus > li:hover {
+    background-color: rgb(189, 93, 93);
+}
+a {
+    text-decoration: none;
+    color: brown;
+}
+a:hover {
+    color: burlywood;
+    font-size: 2rem;
+    font-family: cursive;
+}
+#content {
+    background-color: wheat;
+    padding: 0 1rem;
+}
+#name {
+    margin-top: 2.5rem;
+}
+h3 {
+    padding-top: 1.5rem;
+    color: tomato;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+p {
+    color: sienna;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+.myhobby {
+    padding-bottom: 3rem;
+}
+.footer {
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    padding: 0;
+    margin: 0;
+}
+.img {
+    flex-basis: 50%;
+    padding-right: 1rem;
+}
+.footpara {
+    flex-basis: 50%;
+    justify-content: flex-start;
+}
+.right {
+    text-align: center;
+    line-height: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
